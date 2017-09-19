@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Observer" max_length="32" name="observer" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element default="3" label="Default number" mandatory="true" max_length="40" name="u_integer_1" type="integer"/>
+        <element label="my_date" mandatory="true" max_length="40" name="u_my_date" type="glide_date"/>
+        <element label="New Reference" max_length="32" name="u_reference_3" reference="cmdb_ci_appl_dot_net" type="reference"/>
+    </element>
+</database>
